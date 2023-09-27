@@ -27,6 +27,8 @@ const CartItem = props => (
       const onRemoveCartItem = () => {
         removeCartItem(id)
       }
+      const totalPrice = price * quantity
+
       // TODO: Update the functionality to increment and decrement quantity of the cart item
 
       return (
@@ -57,7 +59,7 @@ const CartItem = props => (
               </button>
             </div>
             <div className="total-price-remove-container">
-              <p className="cart-total-price">Rs {price * quantity}/-</p>
+              <p className="cart-total-price">Rs {totalPrice}/-</p>
               <button
                 className="remove-button"
                 type="button"
