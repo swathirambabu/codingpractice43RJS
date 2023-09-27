@@ -38,21 +38,21 @@
 }
 
 /* Write your CSS here */
-.remove-all-btn{
-    align-self: flex-end;
-    display: flex;
-    border:none;
-    cursor: pointer;
-    outline: none;
-    background:transparent;
-    font-family: roboto;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.5;
-    color:#0b69ff;
+.remove-all-btn {
+  align-self: flex-end;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b69ff;
 }
-@media screen and (min-width:678px){
-    .remove-all-btn{
-        font-size: 16px;
-    }
+@media screen and (min-width: 678px) {
+  .remove-all-btn {
+    font-size: 16px;
+  }
 }
